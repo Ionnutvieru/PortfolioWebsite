@@ -558,3 +558,20 @@ nav {
   nav li a:active { 
     color: gray;
   }
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+  
+  nav li {
+    display: block;
+    text-align: center;
+  }
+  
+  nav li a {
+    display: block;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 16px;
+  }
+}
